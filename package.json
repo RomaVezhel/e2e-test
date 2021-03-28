@@ -1,0 +1,29 @@
+{
+  "name": "e2e-test",
+  "version": "1.0.0",
+  "description": "for more info ask ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor protractor.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RomaVezhel/e2e-test.git"
+  },
+  "author": "Roman Vezhel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RomaVezhel/e2e-test/issues"
+  },
+  "homepage": "https://github.com/RomaVezhel/e2e-test#readme",
+  "private": true,
+  "dependencies": {
+    "@types/jasminewd2": "~2.0.3",
+    "jasmine": "^2.8.0",
+    "jasmine-core": "~3.4.0",
+    "jasmine-spec-reporter": "~4.2.1",
+    "jasmine2-reporter": "^1.0.1",
+    "prettier": "2.2.1",
+    "protractor": "^7.0.0"
+  }
+}
