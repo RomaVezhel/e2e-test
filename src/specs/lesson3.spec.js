@@ -68,7 +68,7 @@ describe("ElementFinder", function () {
     browser.sleep(4000);
   });
 
-  fit("can work with ElementArrayFinder's", async function () {
+  it("can work with ElementArrayFinder's", async function () {
     await browser.get("http://the-internet.herokuapp.com/checkboxes");
     // browser.sleep(3000);
     console.log(await $$('[type="checkbox"]').count()); //отображает сколько выбрано элементов

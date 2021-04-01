@@ -2,7 +2,7 @@ const { onPrepare } = require("./src/OnPrepare");
 exports.config = {
   allScriptsTimeout: 20000,
   getPageTimeout: 20000,
-  specs: ["./src/**/lesson2.js", "./src/**/lesson3.js"],
+  specs: "./src/**/*.spec.js",
   capabilities: {
     browserName: "chrome",
   },
