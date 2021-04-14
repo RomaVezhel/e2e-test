@@ -4,7 +4,9 @@
   "description": "for more info ask ...",
   "main": "index.js",
   "scripts": {
-    "test": "protractor protractor.conf.js"
+    "postinstall": "webdriver-manager update",
+    "test": "protractor protractor.conf.js",
+    "posttest": "allure generate allure-results --clean -o allure-report || true"
   },
   "repository": {
     "type": "git",
@@ -19,10 +21,14 @@
   "private": true,
   "dependencies": {
     "@types/jasminewd2": "~2.0.3",
+    "allure-commandline": "^2.13.8",
     "jasmine": "^2.8.0",
+    "jasmine-allure-reporter": "^1.0.2",
     "jasmine-core": "~3.4.0",
+    "jasmine-reporters": "^2.4.0",
     "jasmine-spec-reporter": "~4.2.1",
     "jasmine2-reporter": "^1.0.1",
+    "log4js": "^6.3.0",
     "prettier": "2.2.1",
     "protractor": "^7.0.0"
   }

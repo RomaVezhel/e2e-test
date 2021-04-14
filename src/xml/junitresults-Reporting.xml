@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="1" tests="2" time="0.135">
+ <testsuite name="Reporting" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.135" errors="0" tests="2" skipped="0" disabled="0" failures="1">
+  <testcase classname="Reporting" name="should report passed test" time="0.13" />
+  <testcase classname="Reporting" name="should report failed test" time="0.003">
+   <failure type="exception" message="Failed: Test failed error"><![CDATA[Error: Test failed error
+    at UserContext.<anonymous> (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\src\specs\lesson10.spec.js:13:15)
+    at C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\selenium-webdriver\lib\promise.js:2974:25
+    at C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+From: Task: Run it("should report failed test") in control flow
+    at UserContext.<anonymous> (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at QueueRunner.execute (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4199:10)
+    at Spec.queueRunnerFactory (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:909:35)
+    at Spec.execute (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:526:10)
+    at UserContext.fn (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:5340:37)
+    at attempt (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\src\specs\lesson10.spec.js:11:5)
+    at addSpecsToSuite (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.fdescribe (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1095:7)
+    at fdescribe (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\node_modules\jasmine\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4428:18)
+    at Object.<anonymous> (C:\Users\roman.vezhel\Desktop\JS_education\e2e-test\src\specs\lesson10.spec.js:5:1)
+    at Module._compile (internal/modules/cjs/loader.js:1063:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1092:10)
+    at Module.load (internal/modules/cjs/loader.js:928:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:769:14)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

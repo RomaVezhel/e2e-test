@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="17" errors="0" failures="0" tests="17" time="0.08">
+ <testsuite name="focused specs" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.043" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+  <testcase classname="focused specs" name="can switch to iframe" time="0">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="focused specs.ElementFinder" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.008" errors="0" tests="5" skipped="0" disabled="5" failures="0">
+  <testcase classname="focused specs.ElementFinder" name="can be clicked" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.ElementFinder" name="check for present element" time="0.004">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.ElementFinder" name="check that checkbox is enabled" time="0.002">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.ElementFinder" name="can send key into it" time="0.001">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.ElementFinder" name="can work with ElementArrayFinder&apos;s" time="0">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="focused specs.parent DESCRIBE block" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.013" errors="0" tests="5" skipped="0" disabled="5" failures="0">
+  <testcase classname="focused specs.parent DESCRIBE block" name="4 TEST for 1" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.parent DESCRIBE block" name="5 TEST for 2" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.parent DESCRIBE block" name="6 TEST for 3" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.parent DESCRIBE block" name="7 TEST for 4" time="0.01">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.parent DESCRIBE block" name="8 TEST for 5" time="0">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="focused specs.parent DESCRIBE block.Nested describe block" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.001" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+  <testcase classname="focused specs.parent DESCRIBE block.Nested describe block" name="NESTED TEST!" time="0.001">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="focused specs.Waits" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.002" errors="0" tests="3" skipped="0" disabled="3" failures="0">
+  <testcase classname="focused specs.Waits" name="implicit wait should wait for element to be present" time="0.001">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.Waits" name="explicit wait should wait for element to be present" time="0">
+   <skipped />
+  </testcase>
+  <testcase classname="focused specs.Waits" name="explicit wait should wait for element to be displayed" time="0.001">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="focused specs.Drag-and-drop" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.001" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+  <testcase classname="focused specs.Drag-and-drop" name="Can drag-and-drop" time="0.001">
+   <skipped />
+  </testcase>
+ </testsuite>
+ <testsuite name="focused specs.execute script" timestamp="2021-04-07T19:50:04" hostname="localhost" time="0.012" errors="0" tests="1" skipped="0" disabled="1" failures="0">
+  <testcase classname="focused specs.execute script" name="can run something" time="0">
+   <skipped />
+  </testcase>
+ </testsuite>
+</testsuites>

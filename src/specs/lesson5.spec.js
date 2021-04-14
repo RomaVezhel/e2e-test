@@ -5,7 +5,7 @@ const { browser, element, By, $, $$ } = require("protractor");
 
 const EC = protractor.ExpectedConditions;
 
-fdescribe("Waits", function () {
+describe("Waits", function () {
   beforeEach(async function () {
     await browser.manage().timeouts().implicitlyWait(0); // перед каждым it сбрасываем на 0
   });
@@ -34,7 +34,7 @@ fdescribe("Waits", function () {
     console.log(await $("#finish h4").getText());
   });
 
-  fit("explicit wait should wait for element to be displayed", async function () {
+  it("explicit wait should wait for element to be displayed", async function () {
     // await browser.manage().timeouts().implicitlyWait(10000);
     await browser.get("http://the-internet.herokuapp.com/dynamic_loading/2");
     await $("#start button").click();
